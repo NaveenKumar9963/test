@@ -4,3 +4,7 @@ git add <file_name> OR git add . => file name will upload only one file you choo
 AGAIN
 git status => the files will be in green color then they are ready to transfer to the local repository
 git commit -m "<Message>" => the -m will refer to meassage it will define the what changes you made before every push
+
+PUSHING THE FILES TO THE REMOTE REPOSITORIES
+git remote add origin https://github.com/NaveenKumar9963/test.git
+git push -u origin master
